@@ -1,0 +1,55 @@
+<!--
+Objetivo del desafío:
+Ampliar el repertorio de elementos HTML. Incorporando el elemento tabla a modo de resumen de algunos elementos html. Con un formulario que "simule" una manera de incorporar un elemento
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TABLAS</title>
+  </head>
+  <body>
+
+    <form action="html_basics_7_tablas.html" method="post">
+      <div>
+        <label for="name">ELEMENTO:</label>
+        <input type="string">
+      </div>
+      <div>
+        <label for="description">Descripcion:</label>
+        <textarea name="description" rows="8" cols="80"></textarea>
+      <div>
+        <label for="plus">Extra:</label>
+        <textarea name="plus" rows="8" cols="80"></textarea>
+
+      <button type="submit" name="INGRESAR ELEMENTO">Ingresar elemento</button>
+      <button type="reset" name="button">Resetear formulario</button>
+    </form>
+
+
+    <table>
+     <tr>
+       <th>ELEMENTO</th>
+       <th>DESCRIPCIÓN</th>
+       <th>COMENTARIO EXTRA</th>
+     </tr>
+     <tr>
+       <td>h1,2,...,6</td>
+       <td>Elemento heading establece encabezados de distintos niveles de jerarquía</td>
+       <td>El máximo es 6</td>
+     </tr>
+     <tr>
+       <td>p</td>
+       <td>Permite establecer un párrafo como un elemento HTML</td>
+       <td>-</td>
+     </tr>
+
+     <tr>
+       <td>img</td>
+       <td>Permite utilizar imágenes en un archivo html</td>
+       <td>A diferencia del elemento a. La forma de establecer la ruta donde se encuentra la imagen de interés se establece con un atributo src</td>
+     </tr>
+    </table>
+  </body>
+</html>
